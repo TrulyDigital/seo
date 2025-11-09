@@ -1,4 +1,4 @@
-# Plantilla de los Prompts para búsqueda de palabras clave en SEO
+# Plantilla de prompts para búsqueda de palabras clave
 
 ## Prompt
 
