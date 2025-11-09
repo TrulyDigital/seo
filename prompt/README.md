@@ -22,3 +22,7 @@ Este es un Ejemplo de la tabla que quiero.
 | Themes para Ghost CMS gratis | 2,500 | Media | 45 | Ubersuggest |
 | Migrar de WordPress a Ghost CMS | 1,900 | Alta | 60 | Ahrefs |
 | Ghost CMS para blogs | 1,800 | Baja | 40 | SEMrush |
+
+El tema de la investigación es:
+
+Instalación de NodeJS.
