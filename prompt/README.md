@@ -9,7 +9,7 @@ Me regalas una tabla en formato markdown (con el código markdown para yo poder 
 3. Un comentario sobre la palabra clave que me sirva para guiarme.
 
 | Palabra Clave | Búsquedas/Mes | Dificultad SEO Talla| Dificultad SEO % | Fuente |
-|--------------------------------------------|---------------|----------------|--------------|
+|---------------|---------------|---------------------|------------------|--------|
 | Qué es Ghost CMS | 5,000 | Baja | 30 | Ubersuggest |
 | Ghost CMS vs WordPress | 3,500 | Media | 45 | Ahrefs |
 | Cómo instalar Ghost CMS | 2,800 | Baja | 35% | SEMrush |
