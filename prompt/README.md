@@ -2,11 +2,17 @@
 
 ## Prompt
 
-Me regalas una tabla en formato markdown (con el código markdown para yo poder copiar la información) con 4 columnas por cada fila, cada celda sin espacios al principio y al final (entre las palabras si debe existir espacions de acuerdo a las reglas ortográficas) y un total de 20 filas con:
+Quiero que me ayudes como un experto SEO.
 
-1. 10 palabras clave "long tail" en español
-2. Dificultad de posicionamiento en SEO en porcentaje
-3. Un comentario sobre la palabra clave que me sirva para guiarme.
+Me regalas una tabla en formato markdown (con el código markdown para yo poder copiar la información) con 5 columnas por cada fila, cada celda sin espacios al principio y al final (entre las palabras si debe existir espacios de acuerdo a las reglas ortográficas) y un total de 20 filas con:
+
+1. Palabras clave "long tail" en español
+2. Estimación/Aproximación de búsquedas por mes
+3. Dificultad de posicionamiento en SEO (Alta, Media, Baja)
+4. Dificultad de posicionamiento en SEO en porcentaje
+5. Fuente de donde se consultaron los datos.
+
+Este es un Ejemplo de la tabla que quiero.
 
 | Palabra Clave | Búsquedas/Mes | Dificultad SEO Talla| Dificultad SEO % | Fuente |
 |---------------|---------------|---------------------|------------------|--------|
