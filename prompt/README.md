@@ -26,3 +26,17 @@ Este es un Ejemplo de la tabla que quiero.
 El tema de la investigación es:
 
 Instalación de NodeJS.
+
+# Plantilla para que las IA me califiquen el Artículo
+
+Este es un artículo para mi blog, aun me falta una sección de solución de errores frecuentes, y FAQ, sin embargo quiero que me califiques o me des tus criticas constructivas sobre este articulo. Los items a calificar son los siguientes y ademas quiero que cada uno me lo entregues en una escala de 1 a 10 para yo saber que tanto esfuerzo me falta.
+
+- Calificación General
+- Completitud del Contenido
+- Claridad y Pedagogía
+- Estructura y Navegabilidad
+- Soporte Visual
+- SEO On-Page
+- Originalidad y valor único
+- Llamada a la acción
+- Resuelve intensión de búsqueda.
