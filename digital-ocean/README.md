@@ -88,14 +88,14 @@
 |Palabra Clave|Búsquedas/Mes|Dificultad SEO Talla|Dificultad SEO %|Fuente|
 |-------------|-------------|-------------------|----------------|------|
 |Configurar Nginx en Digital Ocean Droplet|1,200|Media|46|SEMrush|
-|✅ Cómo apuntar dominio Hostinger a Digital Ocean|980|Baja|38|Ahrefs|
+|Cómo apuntar dominio Hostinger a Digital Ocean ✅|980|Baja|38|Ahrefs|
 |Digital Ocean Nginx reverse proxy configuración|850|Media|49|Ubersuggest|
 |Hostinger DNS settings para Digital Ocean|760|Baja|35|SEMrush|
 |Instalar SSL Let's Encrypt Nginx Digital Ocean|1,100|Media|47|Ahrefs|
 |Migrar sitio de Hostinger a Digital Ocean|1,300|Media|51|SEMrush|
 |Configurar virtual host Nginx Digital Ocean|690|Media|44|Ubersuggest|
 |Digital Ocean Nginx WordPress optimización|920|Media|48|Ahrefs|
-|✅ Cómo conectar dominio Hostinger con Digital Ocean IP|810|Baja|36|SEMrush|
+|Cómo conectar dominio Hostinger con Digital Ocean IP ✅|810|Baja|36|SEMrush|
 |Nginx load balancer Digital Ocean setup|570|Alta|58|Ubersuggest|
 |Hostinger to Digital Ocean migration guide|720|Media|45|Ahrefs|
 |Digital Ocean Nginx PHP-FPM configuración|890|Media|47|SEMrush|
@@ -137,14 +137,14 @@
 
 |Palabra Clave|Búsquedas/Mes|Dificultad SEO Talla|Dificultad SEO %|Fuente|
 |-------------|-------------|-------------------|----------------|------|
-|✅ Cómo instalar Ghost CMS en Digital Ocean|1,800|Media|47|SEMrush|
+|Cómo instalar Ghost CMS en Digital Ocean ✅|1,800|Media|47|SEMrush|
 |Digital Ocean Ghost CMS one-click app|1,200|Baja|36|Ahrefs|
-|✅ Configurar Ghost CMS producción Digital Ocean|950|Media|45|Ubersuggest|
+|Configurar Ghost CMS producción Digital Ocean ✅|950|Media|45|Ubersuggest|
 |Ghost CMS Digital Ocean droplet optimización|890|Media|48|SEMrush|
 |Migrar Ghost CMS a Digital Ocean|760|Media|44|Ahrefs|
 |Digital Ocean Ghost CMS SSL configuración|1,100|Baja|38|Ubersuggest|
 |Ghost CMS con base de datos Digital Ocean|680|Media|46|SEMrush|
-|✅ Configurar dominio Ghost CMS Digital Ocean|820|Baja|37|Ahrefs|
+|Configurar dominio Ghost CMS Digital Ocean ✅|820|Baja|37|Ahrefs|
 |Digital Ocean App Platform Ghost CMS|1,300|Baja|35|Ubersuggest|
 |Backup automático Ghost CMS Digital Ocean|710|Media|43|SEMrush|
 |Escalar Ghost CMS en Digital Ocean|590|Alta|58|Ahrefs|
