@@ -112,13 +112,13 @@
 
 |Palabra Clave|Búsquedas/Mes|Dificultad SEO Talla|Dificultad SEO %|Fuente|
 |-------------|-------------|-------------------|----------------|------|
-|Cómo conectarse por SSH a Digital Ocean|1,500|Baja|32|SEMrush|
+|Cómo conectarse por SSH a Digital Ocean ✅|1,500|Baja|32|SEMrush|
 |Configurar servidor Linux básico Digital Ocean|1,100|Media|45|Ahrefs|
-|Digital Ocean SSH key setup tutorial|980|Baja|35|Ubersuggest|
+|Digital Ocean SSH key setup tutorial ✅|980|Baja|35|Ubersuggest|
 |Hardening SSH seguridad Digital Ocean|890|Media|48|SEMrush|
 |Configurar firewall UFW en Digital Ocean|760|Baja|38|Ahrefs|
 |Digital Ocean servidor aplicaciones Linux|1,200|Media|47|Ubersuggest|
-|Solucionar problemas conexión SSH Digital Ocean|850|Baja|36|SEMrush|
+|Solucionar problemas conexión SSH Digital Ocean ✅|850|Baja|36|SEMrush|
 |Configurar usuarios SSH Digital Ocean|670|Baja|33|Ahrefs|
 |Digital Ocean VPC network setup|920|Media|49|Ubersuggest|
 |Instalar Docker en Digital Ocean Ubuntu|1,400|Media|46|SEMrush|
