@@ -1,6 +1,4 @@
-# TypeScript
-
-## Artículo sobre patron Observer
+# Palabras Clave - TypeScript Patrón Observer - 2025
 
 |Palabra Clave|Búsquedas/Mes|Dificultad SEO Talla|Dificultad SEO %|Fuente|
 |-------------|-------------|-------------------|----------------|------|
