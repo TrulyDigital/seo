@@ -11,3 +11,4 @@ Palabras clave utilizadas en este artículo.
 |Configurar dominio Ghost CMS Digital Ocean|820|Baja|37|Ahrefs|
 |Cómo apuntar dominio Hostinger a Digital Ocean|980|Baja|38|Ahrefs|
 |Cómo conectar dominio Hostinger con Digital Ocean IP|810|Baja|36|SEMrush|
+|Configurar SSL gratis en Ghost CMS|1700|Media|47|Ahrefs|
