@@ -1,6 +1,6 @@
 # Artículo 1
 
-## Qué es una clase en TypeScript
+## Cómo usar TypeScript en un proyecto web simple.
 
 Palabras clave utilizadas en este artículo.
 
@@ -26,3 +26,4 @@ Palabras clave utilizadas en este artículo.
 | introducción a typescript para desarrolladores javascript | 12,000 | Alta | 78 | Ubersuggest |
 | crear una aplicación de lista de tareas con typescript y clases | 1,000 | Media | 54 | SEMrush |
 | cómo definir propiedades y métodos en una clase typescript | 2,200 | Media | 51 | Ahrefs |
+
