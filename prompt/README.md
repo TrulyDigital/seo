@@ -40,3 +40,11 @@ Este es un artículo para mi blog, aun me falta una sección de solución de err
 - Originalidad y valor único
 - Llamada a la acción
 - Resuelve intensión de búsqueda.
+
+# Plantilla de prompts para validar artículos en herramientas de IA
+
+La ocasión anterior estabamos discutiendo lo dificil que es escribir artículos en mi blog sobre NestJS/TypeScript teniendo en cuenta que las herramientas de IA escriben código muy rápido y solucionan muchos temas de artículos ya existentes, por ende, crear artículos sobre lo mismo me iba a dificultar el posicionamiento y el engagement, entonces me proponias crear artículos que generarán valor, en donde yo pudiera identificar decisiones que yo tomo que en teoria no son tan intuitivas para una IA, mi razonamiento es correcto?
+
+En base a eso, tengo una idea de un artículo que me gustara me ayudaras a validar, con el fin de que sea un artículo útil, que generará engagement y que tenga probabilidades de posicionarlo para la autoridad de mi blog. Mi idea es la siguiente:
+
+`Escribir el tema`
