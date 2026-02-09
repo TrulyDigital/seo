@@ -41,7 +41,7 @@ Este es un artículo para mi blog, aun me falta una sección de solución de err
 - Llamada a la acción
 - Resuelve intensión de búsqueda.
 
-# Plantilla de prompts para validar artículos en herramientas de IA
+# Plantilla de prompts para validar artículos IA
 
 La ocasión anterior estabamos discutiendo lo dificil que es escribir artículos en mi blog sobre NestJS/TypeScript teniendo en cuenta que las herramientas de IA escriben código muy rápido y solucionan muchos temas de artículos ya existentes, por ende, crear artículos sobre lo mismo me iba a dificultar el posicionamiento y el engagement, entonces me proponias crear artículos que generarán valor, en donde yo pudiera identificar decisiones que yo tomo que en teoria no son tan intuitivas para una IA, mi razonamiento es correcto?
 
