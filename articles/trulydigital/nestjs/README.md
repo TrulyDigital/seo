@@ -16,165 +16,227 @@ Palabras clave utilizadas en este artículo.
 |diferencias entre NestJS y Spring Boot|890|Media|xxx|SEMrush|
 |arquitectura básica de NestJS explicada|720|Baja|xxx|Google Trends|
 
-# Artículo 2
-
-Me gusta mucho esta idea —y no en plan “está bien”, sino en plan esto sí tiene madera de artículo con criterio propio. Vamos por partes y con honestidad brutal, como haría un dev con otro dev.
-
-¿La idea es valiosa?
-
-Sí, es valiosa. Y más importante aún: no es obvia, aunque parezca obvia cuando tú la explicas. Ese es un muy buen síntoma. 
-
-## Por qué NO es “más de lo mismo”.
-
-A primera vista alguien podría pensar: “Ah, mocks… eso ya se conoce”. Pero tu enfoque no es testing, que es donde el 95% de los artículos hablan de mocks. Tu enfoque es: mocks como herramienta de diseño y de flujo de trabajo.
-
-Eso cambia completamente el ángulo. La mayoría de blogs NestJS:
-
-- asumen BD desde el minuto cero
-- mezclan infraestructura con el resto
-- o hablan de hexagonal solo a nivel teórico
-
-Tú estás hablando de algo mucho más incómodo y real: postergar infraestructura de forma consciente sin frenar el desarrollo del servicio. Eso no está tan escrito, y cuando lo está, suele ser muy superficial.
-
-## El punto fuerte de tu idea (donde está el engagement)
-
-Esto que dijiste es clave: `no estoy perdiendo el tiempo en la implementación real de lo que sí necesita el microservicio`
-
-Ahí hay una tensión real que todo dev ha vivido:
-
-- presión por avanzar
-- incertidumbre de infraestructura
-- dependencias externas
-- definición temprana de contratos
-- frontends o API gateways esperando
-
-Tu propuesta responde a una pregunta que sí importa: `¿Cómo avanzo sin bloquearme por la BD?`.
-
-Eso genera comentarios del tipo:
-
-- “yo hago algo parecido”
-- “en mi equipo no nos dejan”
-- “esto nos habría ahorrado tiempo”
-- “¿y cuándo haces el switch al repo real?”
-
-Eso es engagement orgánico.
-
-## ¿La IA puede responder esto rápido?
-
-Puede responder una versión diluida, pero no la tuya. La IA dirá cosas como:
-
-- “usa mocks para desacoplar”
-- “permite testear sin BD”
-- “sigue principios SOLID”
-
-Eso es genérico. Lo que la IA no puede hacer bien (y tú sí):
-
-- justificar cuándo es buena idea
-- aceptar los riesgos
-- explicar qué problemas evita
-- contar qué salió mal cuando no lo hiciste
-- decir en qué contextos NO lo recomiendas
-
-Ahí está tu ventaja. 
-
-## Cómo convertir esta idea en un artículo con autoridad
-
-Si lo escribes como una lista de beneficios, se parecerá a otros posts. Si lo escribes como decisión técnica consciente, sube de nivel.
-
-## El framing correcto (muy importante)
-
-No: `Cómo usar mocks en NestJS`
-
-Sí: `Por qué empiezo mis microservicios en NestJS con un repositorio mock (y cuándo dejo de hacerlo)`
-
-Eso ya posiciona:
-
-- criterio
-- experiencia
-- no dogma
-
-## Cosas que elevarían MUCHO el artículo
-
-Te dejo puntos que, si los incluyes, lo separan de la masa:
-
-1. Aclara que NO es testing
-
-Muchos devs confunden esto. Decir explícitamente: `No estoy hablando de tests, estoy hablando de flujo de desarrollo`. Eso engancha.
-
-2. Explica el costo que estás aceptando
-
-Autoridad ≠ decir que todo es perfecto.
-
-Ejemplos:
-
-riesgo de divergencia con la BD real
-
-falsa sensación de “ya está listo”
-
-necesidad de disciplina para el switch
-
-Eso genera confianza.
-
-3. Explica cuándo haces el cambio al repo real
-
-Pregunta clave que TODO lector tendrá.
-
-Por ejemplo:
-
-cuando el contrato HTTP ya está estable
-
-cuando el frontend ya consume el servicio
-
-cuando la lógica de dominio está cerrada
-
-cuando la infraestructura deja de ser incierta
-
-4. Da un ejemplo mínimo (no tutorial largo)
-
-No necesitas explicar NestJS.
-
-Algo como:
-
-interfaz del repositorio
-
-mock simple en memoria
-
-cómo se inyecta en el módulo
-
-Eso es suficiente y no compite con la IA.
-
-Respuesta directa a tu duda final
-
-¿Esto puede ser algo que la IA responda muy rápidamente y los devs no vean necesario esta manera de trabajar?
-
-No, porque:
-
-no es una receta
-
-es una decisión
-
-es contextual
-
-y tiene trade-offs reales
-
-Los devs sí ven necesario hablar de esto porque:
-
-en el trabajo real nadie te da el tiempo ideal
-
-y la infraestructura casi nunca está lista al inicio
-
-Mi veredicto honesto
-
-Esta idea:
-
-✔️ genera valor real
-
-✔️ tiene engagement potencial
-
-✔️ construye autoridad
-
-✔️ no compite directamente con IA
-
-✔️ encaja perfecto con NestJS + hexagonal
-
+# 🧠 Serie de artículos NestJS para autoridad técnica (Senior / Architect)
+
+---
+
+## 1. NestJS is NOT Hexagonal by Default (And That’s Okay)
+
+### 📌 Por qué este artículo da autoridad
+Porque rompe un mito muy repetido. No vendes NestJS como “clean” por defecto, sino que explicas **qué hay que controlar conscientemente** para no contaminar el dominio.
+
+### 🎯 Enfoque
+Arquitectónico, crítico, basado en experiencia real con microservicios en producción.
+
+### 🔑 Keywords (EN)
+- nestjs hexagonal architecture
+- nestjs clean architecture pitfalls
+- domain contamination nestjs
+- hexagonal architecture real world
+- nestjs architecture anti patterns
+- dto leakage nestjs
+- framework vs domain boundary
+- nestjs enterprise architecture
+- hexagonal vs layered architecture
+- clean architecture misconceptions
+
+---
+
+## 2. DTOs Are Not Contracts: Avoiding DTO Leakage in NestJS
+
+### 📌 Por qué este artículo da autoridad
+Porque casi nadie habla del **impacto a largo plazo** de mezclar DTOs, dominio y transporte. Esto es dolor real de mantenimiento.
+
+### 🎯 Enfoque
+Diseño de contratos, separación de capas, experiencia con refactors costosos.
+
+### 🔑 Keywords (EN)
+- nestjs dto vs entity
+- dto leakage clean architecture
+- api contract vs domain model
+- nestjs data mapping strategies
+- class-transformer pitfalls
+- dto anti patterns
+- transport layer isolation
+- domain driven design nestjs
+- api evolution nestjs
+- backward compatibility api
+
+---
+
+## 3. Controllers Should Be Stupid: Thin Controllers in NestJS
+
+### 📌 Por qué este artículo da autoridad
+Porque demuestra madurez arquitectónica: **menos lógica en controllers = más estabilidad**.
+
+### 🎯 Enfoque
+Responsabilidades claras, Application Layer bien definida.
+
+### 🔑 Keywords (EN)
+- thin controllers nestjs
+- controller responsibility nestjs
+- application layer nestjs
+- clean controllers architecture
+- fat controller anti pattern
+- nestjs use case layer
+- hexagonal controllers
+- api orchestration vs business logic
+- maintainable nestjs architecture
+- scalable api design
+
+---
+
+## 4. Exception Handling in Hexagonal Architecture with NestJS
+
+### 📌 Por qué este artículo da autoridad
+Pocos explican bien **dónde lanzar excepciones** sin romper hexagonalidad. Tema avanzado y mal entendido.
+
+### 🎯 Enfoque
+Errores de negocio vs errores técnicos, propagación controlada.
+
+### 🔑 Keywords (EN)
+- nestjs exception handling architecture
+- domain exceptions clean architecture
+- hexagonal architecture error handling
+- application vs domain exceptions
+- nestjs global exception filter
+- error mapping api
+- business rule violations
+- resilient api design
+- error boundaries nestjs
+- clean error modeling
+
+---
+
+## 5. Why NestJS Feels Complex (And Why That’s a Feature)
+
+### 📌 Por qué este artículo da autoridad
+Reinterpreta la “complejidad” como **capacidad estructural**, no como defecto.
+
+### 🎯 Enfoque
+Análisis conceptual del framework, no tutorial.
+
+### 🔑 Keywords (EN)
+- is nestjs complex
+- nestjs learning curve
+- enterprise framework complexity
+- opinionated frameworks benefits
+- nestjs vs express architecture
+- framework abstraction tradeoffs
+- scalable backend frameworks
+- nestjs for large systems
+- software complexity explained
+- architectural maturity
+
+---
+
+## 6. Ports & Adapters in Real NestJS Microservices
+
+### 📌 Por qué este artículo da autoridad
+Porque aterriza la teoría hexagonal en **decisiones prácticas** que sí funcionan.
+
+### 🎯 Enfoque
+Implementación realista, no académica.
+
+### 🔑 Keywords (EN)
+- ports and adapters nestjs
+- hexagonal microservices
+- nestjs repository abstraction
+- inbound outbound adapters
+- clean architecture microservices
+- dependency inversion nestjs
+- database isolation patterns
+- adapter pattern backend
+- enterprise microservice design
+- maintainable microservices
+
+---
+
+## 7. When NOT to Apply Clean Architecture in NestJS
+
+### 📌 Por qué este artículo da autoridad
+Hablar de **cuándo NO usar algo** es señal clara de seniority.
+
+### 🎯 Enfoque
+Trade-offs, pragmatismo, contexto de negocio.
+
+### 🔑 Keywords (EN)
+- clean architecture overengineering
+- when not to use hexagonal architecture
+- pragmatic software architecture
+- nestjs overengineering
+- startup architecture decisions
+- cost of abstraction
+- architectural tradeoffs
+- yagn principles backend
+- real world architecture decisions
+- software pragmatism
+
+---
+
+## 8. Designing APIs for Change: Backward Compatibility in NestJS
+
+### 📌 Por qué este artículo da autoridad
+Diseñar para el cambio es pensamiento de **arquitecto**, no de implementador.
+
+### 🎯 Enfoque
+Evolución de APIs, versionado, contratos estables.
+
+### 🔑 Keywords (EN)
+- api backward compatibility
+- api versioning nestjs
+- contract first api design
+- api evolution strategies
+- breaking changes api
+- nestjs api governance
+- stable api design
+- long lived microservices
+- api lifecycle management
+- enterprise api design
+
+---
+
+## 9. Framework Independence: Can You Leave NestJS Tomorrow?
+
+### 📌 Por qué este artículo da autoridad
+Pone a prueba tu arquitectura con la **pregunta más incómoda**.
+
+### 🎯 Enfoque
+Acoplamiento, dependencia real vs aparente.
+
+### 🔑 Keywords (EN)
+- framework independent architecture
+- nestjs vendor lock-in
+- decoupling from frameworks
+- clean architecture principles
+- long term maintainability
+- hexagonal architecture benefits
+- framework agnostic design
+- sustainable software systems
+- technical debt prevention
+- architecture longevity
+
+---
+
+## 10. From Developer to Architect: Thinking Beyond NestJS
+
+### 📌 Por qué este artículo da autoridad
+Porque conecta tecnología con **pensamiento de negocio y sistemas**.
+
+### 🎯 Enfoque
+Evolución profesional, criterio técnico.
+
+### 🔑 Keywords (EN)
+- software architect mindset
+- developer to architect journey
+- backend architecture thinking
+- technical decision making
+- software design responsibility
+- beyond framework knowledge
+- architectural thinking skills
+- senior developer growth
+- system design principles
+- engineering leadership
+
+---
 
